@@ -1,0 +1,21 @@
+.profile_description {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    line-height: 24px;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.profile_avatar_description p {
+    margin: 0;
+}
+
+.profile_avatar img {
+    width: 190px;
+    height: 150px;
+    margin: auto 10px;
+
+}
+

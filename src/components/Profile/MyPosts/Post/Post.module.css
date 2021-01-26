@@ -1,0 +1,30 @@
+.post_item_message {
+    width: 400px;
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: #D1E8E2;
+    border-radius: 10px 10px 10px 0;
+    word-wrap: break-word;
+    padding-left: 10px;
+    margin: auto 0 auto 65px;
+
+}
+
+.post_like {
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.post_avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.post_item {
+    width: 100%;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,30 @@
+.header {
+    grid-area: head;
+    background-color: #D9B08C;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    margin: auto 15px;
+    background-image: url("./cat_logo.png");
+    width: 45px;
+    height: 39px;
+}
+
+.login_block {
+    height: inherit;
+    margin-right: 15px;
+}
+.login_block:focus{
+    outline: 2px solid black;
+}
+
+.login_block a {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 15px;
+    cursor: pointer;
+}

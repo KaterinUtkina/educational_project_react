@@ -1,0 +1,72 @@
+.nav {
+    grid-area: navs;
+}
+
+.overlay {
+    background-color: #116466;
+    min-height: 450px;
+}
+
+.item a {
+    display: block;
+    width: inherit;
+    padding: 15px;
+    color: darkgray;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.item :focus,
+.item:hover {
+    background-color: #2C3531;
+}
+
+.item :focus a,
+.item:hover a {
+    color: white;
+}
+
+.item .active {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.sett {
+    margin-top: 40px;
+}
+
+.icon {
+    position: relative;
+    padding-left: 35px;
+}
+
+.icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -12px;
+}
+.profile {
+    background: url("icon_profile.png") no-repeat;
+}
+
+.message {
+    background: url("icon_message.png") no-repeat;
+}
+
+.news {
+    background: url("icon_news.png") no-repeat;
+}
+
+.music {
+    background: url("icon_music.png") no-repeat;
+}
+
+.settings {
+    background: url("icon_settings.png") no-repeat;
+}
+.users{
+
+}
